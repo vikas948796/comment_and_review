@@ -1,0 +1,577 @@
+body{
+  overflow-x: hidden;
+}
+#txt1{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 30px;
+  color: rgb(65, 65, 65);
+}
+#txt2{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(19, 19, 19);
+}
+#aligntxt{
+  text-align:left;
+}
+
+
+@media only screen and (min-width: 600px){
+  label{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: mediumseagreen;
+    min-height: 100vh;
+     display: flex;
+    flex-direction: column;
+   
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  .main-box{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 340px;
+    border: 3px solid cadetblue;
+    padding: 20px;
+    box-shadow:3px 3px 5px 6px #ccc;
+    border-radius: 3px;
+  }
+  .main-box h3{
+    color:orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+  }
+  
+  #text-input{
+    width: 100%;
+    height: 36px;
+    padding: 10px;
+    font-size: 22px;
+    padding-left: 35px;
+  }
+  
+  #text-input:hover{
+    border: 2px solid mediumaquamarine;
+  }
+  
+  .main-box hr{
+    border: 1px solid mediumaquamarine;
+  }
+  
+  #btn{
+    color:white;
+    background-color:  mediumaquamarine;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #text-input::placeholder{
+    color:gray;
+    font-size: 16px;
+    margin-bottom: 1px;
+    
+  }
+  
+  .input-container i{
+    position: absolute;
+    padding: 4px;
+    margin-left: 3px;
+    color: rgb(49, 0, 128);
+     font-size: 18px;
+     text-align: left;
+     border: none;
+     border-right: 2px solid black;
+  }
+  
+  .link h6{
+    text-align: center;
+    color:darkblue;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  
+  .table{
+    width: 100%;
+  }
+  #er3{
+    width:80%;
+    height:150px;
+    border-radius:30%;
+  }
+  #er2{
+    width:80%;
+    height:150px;
+    border-radius:30%;
+  }
+  #er{
+    width:100%;
+    height:80px;
+  }
+  #er1{
+    width:100%;
+    height:280px;
+    opacity: 0.4;
+      filter: alpha(opacity=40);
+  }
+  #er5{
+    width:100%;
+    height: 470px;
+  }
+  .header{
+  width:100%;
+  height:280px;
+  background-color:black;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    z-index:1;
+    color:White;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #span1
+  {
+    color:#dbdbdb;
+    font-size:3vw;
+  }
+  #span0
+  {
+    color:white;
+    font-size:3vw;
+  }
+  
+  #onhover {
+    display: none;
+   
+  }
+  #surround:hover span[id="initial"] {
+    display: none;
+   
+  }
+  #surround:hover span[id="onhover"] {
+  
+    display: block;
+  }
+  #btn111
+  {
+    width:50%;
+  }
+
+  
+  
+    .careers-openings {
+      padding: 20px;
+      background: #fff;
+      border-radius: 4px;
+      display: block;
+      text-align: left;
+      position: relative;
+      transition: all .3s ease-in-out;
+      -webkit-box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+      box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+  }
+  
+  #container1
+  {
+    position: relative;
+    margin-left: 300px;
+  }
+  #tab1
+  {
+    margin-left:85px;
+  }
+  #card_title{
+    font-size:14.4px;
+  }
+ 
+  .card2{
+    margin-top: 20px;
+  }
+  
+
+  #btn111
+  {
+    width:200px;
+  }
+  #bigbtn{
+    margin-left: 2%;
+    width:55%;
+    margin-right: 2%;
+  }
+  
+    .card-body{
+        text-align: left;
+    }
+    .card {
+      transition: transform 0.5s ease;
+      box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+      border-radius: 0;
+      border: 0;
+      margin-bottom: 1.5em;
+    }
+    .card:hover {
+      transform: scale(1.1);
+    }
+    #footer{
+      box-shadow: grays;
+      background-color: rgb(42, 56, 145)!important;
+      width: 100%;
+      color: white;
+    }
+
+    #footer a{
+        color: white!important;
+    }
+}
+@media only screen and (max-width: 600px){
+  label{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: mediumseagreen;
+    min-height: 100vh;
+     display: flex;
+    flex-direction: column;
+
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  .main-box{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 340px;
+    border: 3px solid cadetblue;
+    padding: 20px;
+    box-shadow:3px 3px 5px 6px #ccc;
+    border-radius: 3px;
+  }
+  .main-box h3{
+    color:orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+  }
+  
+  #text-input{
+    width: 100%;
+    height: 36px;
+    padding: 10px;
+    font-size: 22px;
+    padding-left: 35px;
+  }
+  
+  #text-input:hover{
+    border: 2px solid mediumaquamarine;
+  }
+  
+  .main-box hr{
+    border: 1px solid mediumaquamarine;
+  }
+  
+  #btn{
+    color:white;
+    background-color:  mediumaquamarine;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #text-input::placeholder{
+    color:gray;
+    font-size: 16px;
+    margin-bottom: 1px;
+    
+  }
+  
+  .input-container i{
+    position: absolute;
+    padding: 4px;
+    margin-left: 3px;
+    color: rgb(49, 0, 128);
+     font-size: 18px;
+     text-align: left;
+     border: none;
+     border-right: 2px solid black;
+  }
+  
+  .link h6{
+    text-align: center;
+    color:darkblue;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  
+  .table{
+    width: 100%;
+  }
+  #er3{
+    width:80%;
+    height:150px;
+    border-radius:30%;
+  }
+  #er2{
+    width:80%;
+    height:150px;
+    border-radius:30%;
+  }
+  #er{
+    width:100%;
+    height:80px;
+  }
+  #er1{
+    width:100%;
+    height:300px;
+    opacity: 0.4;
+      filter: alpha(opacity=40);
+  }
+  #er5{
+    width:100%;
+    height: 350px;
+  }
+  .header{
+  width:100%;
+  height:300px;
+  background-color:black;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    z-index:1;
+    color:White;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #span1
+  {
+    color:#dbdbdb;
+    font-size:4vw;
+  }
+  #span0
+  {
+    color:white;
+    font-size:3vw;
+  }
+ 
+  #onhover {
+    display: none;
+   
+  }
+  #surround:hover span[id="initial"] {
+    display: none;
+   
+  }
+  #surround:hover span[id="onhover"] {
+  
+    display: block;
+  }
+  #btn111
+  {
+    width:40%;
+    font-size: 14px;
+  }
+  #span3{
+    margin-bottom: 20px;
+  color:rgb(177, 177, 177);
+  font-size:30px;  
+  }
+  #span4{
+    color:rgb(85, 85, 85);
+    font-size:23px;  
+    margin-left:50px;
+    margin-right: 100%;
+    text-align:left;
+    }
+  
+  
+    .careers-openings {
+      padding: 20px;
+      background: #fff;
+      border-radius: 4px;
+      display: block;
+      text-align: left;
+      position: relative;
+      transition: all .3s ease-in-out;
+      -webkit-box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+      box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+  }
+  
+  #container1
+  {
+    position: relative;
+    margin-left: 300px;
+  }
+  #tab1
+  {
+    margin-left:85px;
+  }
+  #card_title{
+    font-size:14.4px;
+  }
+  #left1
+  {
+    margin-left:50px; 
+  }
+  .card2{
+    margin-top: 20px;
+  }
+  
+
+  #btn111
+  {
+    width:150px;
+  }
+  #bigbtn{
+    margin-left: 2%;
+    width:60%;
+    margin-right: 2%;
+  }
+  
+    
+    #left2header
+    {
+      margin-left:50px; 
+    }
+    
+    .card-body{
+        text-align: left;
+    }
+    .card {
+      transition: transform 0.5s ease;
+      box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+      border-radius: 0;
+      border: 0;
+      margin-bottom: 1.5em;
+    }
+    .card:hover {
+      transform: scale(1.1);
+    }
+    #footer{
+      box-shadow: grays;
+      background-color: rgb(42, 56, 145)!important;
+      width: 100%;
+      color: white;
+    }
+
+    #footer a{
+        color: white!important;
+    }
+        
+}
+@media only screen and (min-width: 768px){
+  #bigbtn{
+    margin-left: 2%;
+    width:70%;
+    margin-right: 2%;
+  }
+  #er5{
+    width:100%;
+    height: 370px;
+  }
+}
+@media only screen and (min-width: 992px){
+  #bigbtn{
+    margin-left: 2%;
+    width:70%;
+    margin-right: 2%;
+   
+  }
+  #er5{
+    width:100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  #span3{
+    margin-bottom: 20px;
+  color:rgb(177, 177, 177);
+  font-size:30px;  
+  }
+  #span4{
+    color:rgb(85, 85, 85);
+    font-size:23px;  
+    
+    }
+    #er5{
+      width:100%;
+      height: 480px;
+    }
+    #bigbtn{
+      margin-left: 2%;
+      width:56%;
+      margin-right: 2%;
+    }
+}
+@media only screen and (max-width: 500px){
+  #er5{
+    width:100%;
+    height: 300px;
+  } 
+}
+@media only screen and (max-width: 402px){
+  #span1
+  {
+    color:#dbdbdb;
+    font-size:14.4px;
+  }
+  #span0
+  {
+    color:white;
+    font-size:14.4px;
+  }
+  #bigbtn{
+    margin-left: 1%;
+    width:90%;
+    margin-right: 1%;
+  }
+  #btn111
+  {
+    width:120px;
+  }
+  #er5{
+    width:100%;
+    height: 250px;
+  }
+}

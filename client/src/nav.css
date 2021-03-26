@@ -1,0 +1,20 @@
+#navcolor
+{
+    color:rgb(255, 255, 255);
+}
+#navcolor1
+{
+    color:rgb(0, 0, 0);
+}
+#navcolor1:hover
+{
+    color:#ff0000;
+}
+#navcolor:hover{
+    color:#fed136;
+}
+#collapsibleNavbar
+{
+    height: 100%;
+    scroll-behavior: smooth;
+}
